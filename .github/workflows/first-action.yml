@@ -10,3 +10,7 @@ jobs:
         run: echo "Its me dinesh"
       - name: print end
         run: echo "Bye by Din"
+      - name: parallel exec
+        run: |
+            echo "First output"
+            echo "Second output"
